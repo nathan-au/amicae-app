@@ -30,12 +30,19 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.deepPurple,
-      appBar: AppBar(
-        backgroundColor: Colors.lightBlueAccent,
-        title: const Text('Welcome to AMICAE'),
-      ),
-      body: Center(
-        child: Image.asset("images/ae_short_black.png")
+      body: Container(
+        margin: const EdgeInsets.all(20),
+        width: double.infinity,
+
+        child: const Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            CircleAvatar(
+              backgroundImage: AssetImage("images/ae_short_black.png"), radius: 100,
+            ),
+            Text("what sgoof")
+          ],
+        )
       ),
     );
   }
