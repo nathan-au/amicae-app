@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
             CircleAvatar(
               backgroundImage: AssetImage("images/ae_short_black.png"), radius: 100,
             ),
-            Text("what sgoof")
+            Text("Welcome to AMICAE")
           ],
         )
       ),
