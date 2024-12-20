@@ -2,8 +2,28 @@ import 'package:flutter/material.dart';
 import "index.dart";
 
 void main() {
-  runApp(const MaterialApp(
-    home: LandingPage(),
+  runApp(MaterialApp(
+    home: const LandingPage(),
+    theme: AppThemes.lightTheme,
+    darkTheme: AppThemes.darkTheme,
+    themeMode: ThemeMode.system,
 
   ));
+}
+
+class AppColors {
+  static const black = Colors.black;
+  static const white = Colors.white;
+
+}
+
+class AppThemes {
+  static final lightTheme = ThemeData(
+    primaryColor: AppColors.white,
+    brightness: Brightness.light
+  );
+  static final darkTheme = ThemeData(
+    primaryColor: AppColors.black,
+    brightness: Brightness.dark
+  );
 }
