@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import "index.dart";
+import "features/login/index.dart";
 
 void main() {
   runApp(MaterialApp(
