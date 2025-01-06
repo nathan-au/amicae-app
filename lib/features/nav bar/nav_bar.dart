@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import "home.dart";
-import "people.dart";
-import "events.dart";
-import "spots.dart";
-import "profile.dart";
+import "../home/home.dart";
+import "../people/people.dart";
+import "../events/events.dart";
+import "../spots/spots.dart";
+import "../profile/profile.dart";
 
 class NavBar extends StatefulWidget {
   const NavBar({super.key});
