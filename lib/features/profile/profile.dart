@@ -1,4 +1,4 @@
-import 'package:amicae_app/index.dart';
+import 'package:amicae_app/features/login/index.dart';
 import 'package:flutter/material.dart';
 
 class ProfilePage extends StatefulWidget {
